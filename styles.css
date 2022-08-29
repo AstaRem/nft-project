@@ -1,0 +1,112 @@
+/* general
+headings
+images
+links */
+
+/* general */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    color: #2B283A;
+
+}
+
+main p {
+    line-height: 1.4rem;
+}
+
+
+/*  headings */
+h1, 
+h3 {
+    margin: 0;
+}
+
+h1 {
+    color:whitesmoke;
+    font-size: 36px;
+}
+h2 {
+    margin-top: 0;
+}
+
+h3 {
+    color: #D0AAFF;
+    font-size: 20px;
+}
+
+/* layout */
+header, .digital-section {
+    background-color: #5F29A3;
+}
+
+.container {
+    width: 620px;
+    margin: 0 auto;
+}
+
+
+.digital-section {
+    color: whitesmoke;
+}
+
+.container-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* images */
+.sneakers-img {
+    width: 100%;
+}
+
+.digital-img {
+    width: 300px;
+    border-radius: 4.6px;
+}
+
+footer p {
+    color:#5F29A3;
+    text-align: center;
+}
+
+header, 
+footer, 
+.sneakers-section, 
+.digital-section {
+    padding: 45px 0;
+
+}
+
+/* links */
+.btn {
+    text-decoration: none;
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500;
+    display:inline-block;
+}
+
+.btn-dark{
+    color: whitesmoke;
+    background-color: #5F29A3 ;
+}
+
+.btn-mid {
+    color: #5F29A3;
+    background-color:  #F0E0FF;
+}
+
+.btn-light {
+    color: #5F29A3;
+    background-color:  whitesmoke;
+
+}
+
+.btn:active,
+.btn:hover {
+    color: #2B283A;
+    background-color: #F3E885;
+}
+
